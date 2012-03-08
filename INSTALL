@@ -1,0 +1,8 @@
+To install musicpaused run:
+
+$ make
+# make install
+
+To uninstall musicpaused run:
+
+# make uninstall

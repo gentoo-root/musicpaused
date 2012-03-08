@@ -1,0 +1,5 @@
+musicpaused changelog:
+
+08/03/12 - 0.1:
+		- Initial release. Music pause daemon pauses MPRIS compliant
+		music players when headphones are plugged out.
