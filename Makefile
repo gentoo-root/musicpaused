@@ -33,7 +33,8 @@ clean:
 	$(RM) musicpaused *.o *.dep
 
 install:
-	$(INSTALL) musicpaused /usr/bin
+	$(INSTALL) -d $(DESTDIR)/usr/bin
+	$(INSTALL) musicpaused $(DESTDIR)/usr/bin
 
 uninstall:
-	$(RM) /usr/bin/musicpaused
+	$(RM) $(DESTDIR)/usr/bin/musicpaused
