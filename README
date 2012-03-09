@@ -1,0 +1,26 @@
+What is it?
+===============
+Music Pause Daemon is a daemon that pauses media player when headphones are unplugged.
+
+Currently supported media players are all MPRIS-compliant players.
+
+How to use it:
+===============
+Add '/usr/bin/musicpaused <player_name>' to your desktop environment autostart. You can determine <player_name> by running command:
+
+$ qdbus | sed -n '/^ org\.mpris\.MediaPlayer2\./s/^ org\.mpris\.MediaPlayer2\.//p'
+
+when player is running.
+
+How to compile:
+===============
+$ make
+# make install
+
+How to uninstall:
+===============
+# make uninstall
+
+Please report bugs to: https://github.com/gentoo-root/musicpaused/issues, registration is needed.
+
+Maxim A. Mikityanskiy
