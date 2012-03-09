@@ -17,9 +17,16 @@ How to compile:
 $ make
 # make install
 
+If you are on Gentoo, you should use ebuild. It is located in directory 'gentoo'.
+
 How to uninstall:
 ===============
 # make uninstall
+
+Dependencies:
+===============
+- DBus
+- jacklistener
 
 Please report bugs to: https://github.com/gentoo-root/musicpaused/issues, registration is needed.
 
