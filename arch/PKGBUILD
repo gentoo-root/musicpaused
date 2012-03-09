@@ -6,6 +6,7 @@ pkgdesc="Pause music when headphones are unplugged"
 arch=('i686' 'x86_64')
 url="https://github.com/gentoo-root/musicpaused"
 license=('GPL3')
+provides=('musicpaused')
 depends=('dbus' 'jacklistener')
 makedepends=('git' 'pkgconfig')
 
